@@ -16,24 +16,29 @@ int main()
 {
 
     int n = 5;
+    // row
     for (int i = 1; i <= n; i++)
     {
+        // part1
         int c1 = 1;
         for (int j = 1; j <= n - i + 1; j++)
         {
             cout << c1 << " ";
             c1++;
         }
+        // part2
 
         for (int k = 1; k <= i - 1; k++)
         {
             cout << "* ";
         }
+        // part3
 
         for (int n = 1; n <= i - 1; n++)
         {
             cout << "* ";
         }
+        // part4
 
         int c2 = n - i + 1;
         for (int m = 1; m <= n - i + 1; m++)
