@@ -1,6 +1,15 @@
 //<--Wasif_Hossain-->--- Problem Name :
 #include <bits/stdc++.h>
 using namespace std;
+/*
+
+1 2 3 4 5 5 4 3 2 1
+1 2 3 4 * * 4 3 2 1
+1 2 3 * * * * 3 2 1
+1 2 * * * * * * 2 1
+1 * * * * * * * * 1
+
+*/
 
 //---------------  main function  ----------------- :)
 int main()
